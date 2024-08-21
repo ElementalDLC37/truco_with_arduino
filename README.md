@@ -4,7 +4,7 @@ Saudações! Sejam todos bem-vindos a documentação do robõ que joga truco! É
 # Sumário
 - [Motivação](#Motivação)
 - [Resumo](#Resumo)
-- [Arduino e Servidor](#Arduino_e_Servidor)
+- [Arduino e Servidor](#Arduino-e-Servidor)
 - [Código](#Motivação)
 
 # Motivação
