@@ -4,7 +4,7 @@ Saudações! Sejam todos bem-vindos a documentação do robõ que joga truco! É
 # Sumário
 - [Motivação](#Motivação)
 - [Resumo](#Resumo)
-- [Lógica](#Motivação)
+- [Arduino e Servidor](#Arduino_e_Servidor)
 - [Código](#Motivação)
 
 # Motivação
@@ -23,7 +23,7 @@ De forma introdutória, apresentarei o projeto seguindo este desenho inicial.
 - **Cortina**: Nome dado a barreira criada para que o adversário do robô não possa ver as cartas.
 - **CDD**: Abreviação de "Controlador de Direção". Ajudará o arduino a seguir pelos caminhos que ele necessita para determinada função. Será feito por meio de um código de barras, que, ao ser detectado, informa ao arduino aonde ele se encontra e para onde deve ir dependendo de qual sua ação no momento.
 
-# Hardware
+# Arduino e Servidor
 Aqui será explicado um pouco da parte tanto de hardware como um pouco da lógica de software do projeto. Não imcorporaremos o encaixe de fios (ou jumpers), tampouco uma organização de protoboard. Este fluxo abaixo somente será útil para se obter um entendimento maior acerca do funcionamento do robô.
 
 <img src="public/hard-fluxogram.png" style="width: 500px" alt="Texto Alternativo">
