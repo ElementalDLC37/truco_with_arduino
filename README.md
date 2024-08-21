@@ -34,7 +34,7 @@ Aqui será explicado um pouco da parte tanto de hardware como um pouco da lógic
 - **Ponte H**: Placa que controla a tensão para os motores.
 - **Python/Lógica/TensorFlow**: Servidor dos dados. É ele quem recebe os dados em formato de array pelo Arduino e envia a Rede Neural fazer a predição da carta. Além disso, ele também cuida das tomadas de decisão acerca de quais cartas serão escolhidas pelo Arduino. No fluxograma aparece que um está na frente do outro, mas na prática os dois podem assumir qualquer uma das posições, ou seja, analisar pela rede neural e depois verificar a lógica, ou analisar a lógica e somente depois verificar a rede neural.
 
-### Explicando um Jogo
+# Explicando um Jogo
 Nesta seção será explicado passo a passo como funciona uma partida do jogo com o Arduino.
 
 - **Início**: O Arduino deve estar em sua posição inicial. O adversário deve embaralhar as cartas, entrega-las para ambos e mostrar a carta "Vira", e assim ligar o arduino. A primeira coisa que o robô fará é escolher quem irá começar o jogo aleatoriamente, mostrando isso por meio de bips, sendo 1 bip para ele começando e 2 bips para você começando. Caso ele começe, irá ler todas as cartas contidas no jogo. E então irá voltar para sua posição inicial.
