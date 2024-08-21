@@ -6,6 +6,7 @@ Saudações! Sejam todos bem-vindos a documentação do robõ que joga truco! É
 - [Resumo](#Resumo)
 - [Arduino e Servidor](#Arduino-e-Servidor)
 - [Explicando um Jogo](#Explicando-um-Jogo)
+- [Mecanismo de rota](#Mecanismo-de-rota)
 
 # Motivação
 Tirando toda a brincadeira por trás. Esse projeto está sendo realizado como parte de um dos trabalhos realizados no InovaTech, o programa de inovação e tecnologia do curso de Sistemas de Informação da Unipar. O objetivo principal do projeto é botar em prática a aplicação de estudos a cerca de Inteligência Artificial e Lógica de Programação, visando criar um sistema complexo, porém eficiente e, principalmente, inteligente.
@@ -49,6 +50,8 @@ Nesta seção será explicado passo a passo como funciona uma partida do jogo co
   
 - **Terceiro passo**: Chegando em seu ponto inicial, irá repetir o primeiro e o segundo passo até a última rodada, dependendo do andamento do jogo. Após o término da partida, irá emitir um bip característico.
 
+# Mecanismo de rota
+A lógica por trás dos caminhos que o robô fará dependeria de 3 fatores: Sua localização atual, sua localização anterior e o que ela necessita fazer no momento. Em outras palavras,
 
   
 
