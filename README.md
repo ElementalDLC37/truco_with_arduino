@@ -6,6 +6,7 @@ Saudações! Sejam todos bem-vindos a documentação do robõ que joga truco! É
 - [Resumo](#Resumo)
 - [Arduino e Servidor](#Arduino-e-Servidor)
 - [Explicando um Jogo](#Explicando-um-Jogo)
+- [Treinamento](#Treinamento)
 - [Mecanismo de rota](#Mecanismo-de-rota)
 
 # Motivação
@@ -53,5 +54,6 @@ Nesta seção será explicado passo a passo como funciona uma partida do jogo co
 # Mecanismo de rota
 A lógica por trás dos caminhos que o robô fará dependeria de 3 fatores: Sua localização atual, sua localização anterior e o que ela necessita fazer no momento. Em outras palavras,
 
-  
+# Treinamento
+O sistema de treinamento é essencial para termos uma base de dados do dado bruto das cartas com seus respectivos valores. Não é o Arduino que processa as informações, mas somente envia elas para o servidor para que o mesmo processe tanto o jogo como a leitura das cartas. O processo de treinamento é simples.
 
